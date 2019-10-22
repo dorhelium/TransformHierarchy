@@ -1,1 +1,2 @@
-# SpiderShowman-animation-clip
+# SpiderShowman
+# a demostration of character hierarchy
