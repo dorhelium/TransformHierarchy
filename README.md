@@ -1,2 +1,2 @@
 # SpiderShowman
-# a demostration of character hierarchy
+# a demostration of object hierarchy in computer graphics
