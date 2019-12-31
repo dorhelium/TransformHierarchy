@@ -30,9 +30,8 @@ import mintools.viewer.TrackBallCamera;
 
 
 /**​‌​​​‌‌​​​‌‌​​​‌​​‌‌‌​​‌
- * Class for Assignment 1, provides a viewing interface and keyframing interface for
+ * provides a viewing interface and keyframing interface for
  * a scene graph constructed with DAGNodes.
- * @author kry
  */
 public class A1App implements GLEventListener {
 
