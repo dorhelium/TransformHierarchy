@@ -1,6 +1,6 @@
 # Transform Hierarchy System for Animated Characters
 
-This project deploys a hierarchy of transformations to draw characters. The characters are a collection of rigid objects connected by various parametric joints, such as single axis rotary joints, spherical joints, etc. Unique characters can be made using the implemented elements. The transformation hierarchy is developed to pose the characters and ultimately create a short key frame animation. Each key frame is then interpolated to produce a continous animated clip.
+This project deploys a hierarchy of transformations to draw characters. The characters are a collection of rigid objects connected by various parametric joints, such as single axis rotary joints, spherical joints, etc. Unique characters can be made using the implemented elements. The transformation hierarchy is developed to pose the characters and ultimately create a short key frame animation. Each key frame is then interpolated to produce a continous animated clip.<br/>
  <img src="/spiderClip.gif">
 
 ## Instruction
@@ -11,7 +11,7 @@ The utility files came from the 2.3.2 release folder (https://jogamp.org/wiki/in
 ## Make An Animated Character
 
 ### 1. FreeJoint DAG Node
-FreeJoint class extends the abstract GraphNode class. This will be for the root of your character allowing you can modify both translation and rotation of the root. 
+FreeJoint class extends the abstract GraphNode class. This will be for the root of your character allowing you can modify both translation and rotation of the root.
 
 There are 6 DoubleParameter member variables in the class for controlling the 6 degrees of rigid motion. The min and max values for each parameter can be adjusted (e.g., the translation parameters should have reasonable limits based on the size of your character. These parameters are exposed in the key frame posing interface by adding them to the GraphNode.dofs collection.
 
